@@ -1,5 +1,7 @@
 package stack;
 
+import java.util.Stack;
+
 /**
  * @author Vipin Gupta
  *
@@ -23,7 +25,16 @@ public class ReverseAString {
 	 * @return
 	 */
 	private static String reverseString(String str){
-		return null;
+		Stack<Character> stack = new Stack<Character>();
+		for(int i=0; i<str.length(); i++){
+			stack.push(str.charAt(i));
+		}
+		String s = "";
+		
+		while(!stack.isEmpty()){
+			s += stack.pop();
+		}
+		return s;
 	}
 
 }
