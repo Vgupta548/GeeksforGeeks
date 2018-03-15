@@ -13,7 +13,8 @@ public class ReverseAString {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		String s = "ReverseThisString";
+		s = reverseString(s);
 	}
 	
 	/**
@@ -21,7 +22,7 @@ public class ReverseAString {
 	 * @param str
 	 * @return
 	 */
-	private String reverseString(String str){
+	private static String reverseString(String str){
 		return null;
 	}
 
