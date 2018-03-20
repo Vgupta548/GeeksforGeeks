@@ -1,4 +1,11 @@
-class FindMiddleElementInStack{
+package stack;
+/**
+ * @author Vipin Gupta
+ *
+ * Mar 17, 2018
+ */
+
+public class FindMiddleElementInStack{
 
 /*
   * Deleting an element from middle is not O(1) for array. 
@@ -37,17 +44,20 @@ class FindMiddleElementInStack{
     
     /*Function to pop element in stack using DLL
      and adjust DLL top pointer and middle Elemnt pointer accordingly */
-    private static int pop(int i){
+    private static int pop(){
+		return 0;
     
     }
     
-   / *Function to return middle element in stack using DLL */
+   /* Function to return middle element in stack using DLL */
     private static int findMiddleElement(){
+		return 0;
     
     }
     
-     / *Function to delete middle element in stack using DLL
-     and adjust middle Elemnt pointer accordingly */
+     /* Function to delete middle element in stack using DLL
+      * and adjust middle Elemnt pointer accordingly 
+     */
     private static void deleteMiddleElement(){
     
     }

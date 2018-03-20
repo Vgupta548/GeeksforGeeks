@@ -1,5 +1,15 @@
 
-class SpecialStackMinElement{
+package stack;
+
+import java.util.Stack;
+
+/**
+ * @author Vipin Gupta
+ * Sort a stack using recursion
+ * Mar 17, 2018
+ */
+
+public class SpecialStackMinElement{
 
 //Stack object min which work as auxiliary stack
 Stack<Integer> min = new Stack<Integer>();
@@ -23,11 +33,13 @@ Stack<Integer> min = new Stack<Integer>();
     
     //pop element from main stack and also from min stack if less equal to top elemnt
     private static int pop(){
+		return 0;
     
     }
     
     //Get min elemnt from min stack
     private static int getMin(){
+		return 0;
     
     }
 

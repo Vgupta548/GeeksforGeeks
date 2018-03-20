@@ -1,4 +1,10 @@
-class EvaluatePostFix{
+package stack;
+/**
+ * @author Vipin Gupta
+ *
+ * Mar 15, 2018
+ */
+public class EvaluatePostFix{
 
 /* Evaluate Postfix Expression*/
   public static void main(String[] args){
@@ -8,7 +14,7 @@ class EvaluatePostFix{
   }
   
   /*Function to evalauate PostFix Expression */
-  public int evaluatePostFixExpression(String s){
+  public static int evaluatePostFixExpression(String s){
   
    return 0;
   }

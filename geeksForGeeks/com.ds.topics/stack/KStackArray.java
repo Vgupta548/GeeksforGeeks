@@ -1,4 +1,7 @@
+package stack;
 /*
+  * @author Vipin Gupta
+  * Mar 17, 2018
   * Create a data structure kStacks that represents k stacks.
   * k stacks should use the same array for storing elements. Following functions must be supported by kStacks.
 
@@ -6,20 +9,23 @@
   * pop(int sn) –> pops an element from stack number ‘sn’ where sn is from 0 to k-1
 */
 
-class KStackArray{
+
+
+
+public class KStackArray{
 
   /* Mathod to test k stacks in a single array */
   public static void main(String[] args){
     MutiStackArray stacks = new MutiStackArray(4, 12);
-    stack.push
+    stacks.push(1, 1);
   
   }
   
   //Data structure kStacks that represents k stacks 
-  class MutiStackArray{
+  public static class MutiStackArray{
     int k; //no of stacks
     int n; //array Size;
-    int[] array //array that holds staks elemrnt
+    int[] array; //array that holds staks element
     MutiStackArray(int k, int n){
       this.k = k;
       this.n = n;
@@ -33,16 +39,19 @@ class KStackArray{
 
   /* Method to pop element from stack 'sn' */
       private int pop(int sn){
+		return sn;
 
       }
       
     /* Method to check if array is Full or not */
       private boolean isFull(int sn){
+		return false;
 
       }
       
     /* Method to cheek if array is Empty or not*/
       private boolean isEmpty(int sn){
+		return false;
 
       }
   

@@ -1,12 +1,18 @@
 
-/*
-  *Sort a stack using recursion
-  *
-*/
-class SortStackUsingRecursion{
+package stack;
+
+import java.util.Stack;
+
+/**
+ * @author Vipin Gupta
+ * Sort a stack using recursion
+ * Mar 17, 2018
+ */
+
+public class SortStackUsingRecursion{
 
 public static void main(String[] args){
-m 
+
 Stack<Integer> s = new Stack<Integer>();
   s.push(-3);
   s.push(6);

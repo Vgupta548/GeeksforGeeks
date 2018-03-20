@@ -1,8 +1,11 @@
-/*
-*Infix TO Prefix Expression
-*/
+package stack;
+/**
+ * @author Vipin Gupta
+ *Infix TO Prefix Expression
+ * Mar 17, 2018
+ */
 
-class InfixToPostfix{
+public class InfixToPostfix{
 
   /* Method For Infix To Postfix */
   public static void main(String[] args){
@@ -14,7 +17,7 @@ class InfixToPostfix{
    *@param Infix String
    *@retur PostFix String
   */
-  public String ChangeInfixToPreFix(String s){
+  public static String ChangeInfixToPreFix(String s){
 
     return s;
   }
