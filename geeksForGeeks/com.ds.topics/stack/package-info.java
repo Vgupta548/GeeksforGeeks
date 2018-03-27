@@ -4,7 +4,7 @@
  * Mar 15, 2018
  */
 package stack;
-Applications of stacks
+/*Applications of stacks
 
 # Expression evaluation and syntax parsing
   1> Reverse Polish notation (RPN) : a mathematical notation in which operators follow their operands,
@@ -17,7 +17,7 @@ Applications of stacks
 # Compile time memory management
   4>   PostScript
   5>  Many virtual machines are also stack-oriented, including the p-code machine and the Java Virtual Machine
-  6>  Almost all calling conventions‍—‌the ways in which subroutines receive their parameters and return results‍
+  6>  Almost all calling conventionsâ€�â€”â€Œthe ways in which subroutines receive their parameters and return resultsâ€�
   7>  nested or recursive function calls: This type of stack is used implicitly by the compiler to support 
     CALL and RETURN statements (or their equivalents) and is not manipulated directly by the programmer.
   8>  Some programming languages use the stack to store data that is local to a procedure. 
@@ -32,3 +32,4 @@ Applications of stacks
       
 # Security
   13>  stack smashing attack that takes advantage of this type of implementation by providing oversized data input to a program that does not check the length of input
+*/
